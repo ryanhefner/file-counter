@@ -1,0 +1,31 @@
+{
+  "name": "file-counter",
+  "version": "0.1.0",
+  "description": "Quickly know how many files are in a directory, recursively, with the ability to supply rules/filters.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel --presets latest,es2015 -d ./ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/ryanhefner/file-counter.git",
+  "author": "Ryan Hefner <hi@ryanhefner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhefner/file-counter/issues"
+  },
+  "homepage": "https://github.com/ryanhefner/file-counter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "minimist": "^1.2.0"
+  }
+}
