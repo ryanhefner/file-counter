@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 var _path = require('path');
@@ -20,7 +21,7 @@ var list = function list() {
 
 var dirVal = './';
 
-_commander2.default.version('0.1.0').arguments('[dir]').option('-f, --exclude-files [excludeFiles]', 'File names or patterns used to exclude files from the count.', list).option('-d, --exclude-dirs [excludeDirs]', 'Directory names or patterns used to exclude directories from the count.', list).option('-v, --verbose', 'Log the file names in addition to the files total.').action(function (dir) {
+_commander2.default.version('0.1.1').arguments('[dir]').option('-f, --exclude-files [excludeFiles]', 'File names or patterns used to exclude files from the count.', list).option('-d, --exclude-dirs [excludeDirs]', 'Directory names or patterns used to exclude directories from the count.', list).option('-v, --verbose', 'Log the file names in addition to the files total.').action(function (dir) {
     dirVal = dir;
 }).parse(process.argv);
 
