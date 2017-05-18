@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/ryanhefner/file-counter.git",
-  "author": "Ryan Hefner <hi@ryanhefner.com>",
+  "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryanhefner/file-counter/issues"
