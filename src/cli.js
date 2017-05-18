@@ -15,7 +15,7 @@ const list = (value = '') => {
 let dirVal = './';
 
 program
-    .version('0.1.0')
+    .version('0.1.1')
     .arguments('[dir]')
     .option('-f, --exclude-files [excludeFiles]', 'File names or patterns used to exclude files from the count.', list)
     .option('-d, --exclude-dirs [excludeDirs]', 'Directory names or patterns used to exclude directories from the count.', list)
