@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Quickly know how many files are in a directory, recursively, with the ability to supply rules/filters.",
   "main": "index.js",
+  "bin": {
+    "file-counter": "./cli.js"
+  },
   "scripts": {
     "compile": "babel --presets latest,es2015 -d ./ src/",
     "prepublish": "npm run compile",
@@ -25,7 +28,6 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
-    "commander": "^2.9.0",
-    "minimist": "^1.2.0"
+    "commander": "^2.9.0"
   }
 }
