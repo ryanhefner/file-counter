@@ -1,6 +1,6 @@
 {
   "name": "file-counter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly know how many files are in a directory, recursively, with the ability to supply rules/filters.",
   "main": "index.js",
   "bin": {
