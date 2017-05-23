@@ -1,7 +1,15 @@
 {
   "name": "file-counter",
   "version": "0.1.1",
-  "description": "Quickly know how many files are in a directory, recursively, with the ability to supply rules/filters.",
+  "description": "Recursively count the number of files within a directory, and all of its subdirectories. Apply filters to exclude files or directories from the total.",
+  "keywords": [
+    "filesystem",
+    "utility",
+    "cli",
+    "directory",
+    "file",
+    "count"
+  ],
   "main": "index.js",
   "bin": {
     "file-counter": "./cli.js"

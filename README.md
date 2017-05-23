@@ -1,5 +1,5 @@
 # file-counter
-Recursively counts the number of files within a directory, and all of its subdirectories.
+Recursively count the number of files within a directory, and all of its subdirectories.
 Apply filters to exclude files or directories from the total.
 
 ## Install
@@ -34,8 +34,6 @@ utility for use within your package or project. Below are a few examples on how
 you can use it in those scenarios.
 
 ### CLI
-
-
 ```
 $ file-counter [options] [dir]
 ```
@@ -142,6 +140,9 @@ const bar = new ProgressBar(':bar', { total: totalFiles });
 bar.tick();
 ...
 ```
+
+And, if you’re curious about the `progress` package referenced above, you can find
+out more about that, [here](https://github.com/visionmedia/node-progress).
 
 ## License
 
